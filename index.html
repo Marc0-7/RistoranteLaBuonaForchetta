@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ristorante La Buona Forchetta</title>
+    <link rel="stylesheet" href="stileconCopilot_2.css">
+</head>
+<body>
+    <header>
+        <img src="immagini_HTMLconCopilot/logo.png" alt="Logo Ristorante La Buona Forchetta" class="logo">
+        <h1>Ristorante La Buona Forchetta</h1>
+        <nav>
+            <ul>
+                <li><a href="#menu" class="nav-link">Menù</a></li>
+                <li><a href="#prenotazioni" class="nav-link">Prenotazioni</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <img src="immagini_HTMLconCopilot/ristorante.jpg" alt="Sala del ristorante" class="hero-img">
+            <div class="hero-text">
+                <h2>Benvenuti!</h2>
+                <p>Scopri i sapori autentici della cucina italiana in un ambiente accogliente.</p>
+                <a href="#menu" class="cta-btn">Sfoglia il Menù</a>
+            </div>
+        </section>
+        <section id="menu">
+            <h2>Il nostro Menù</h2>
+            <div class="menu-controls">
+                <label for="filter-category">Filtra per categoria:</label>
+                <select id="filter-category">
+                    <option value="tutti">Tutti</option>
+                    <option value="antipasti">Antipasti</option>
+                    <option value="primi">Primi</option>
+                    <option value="secondi">Secondi</option>
+                    <option value="dolci">Dolci</option>
+                </select>
+                <input type="text" id="search-menu" placeholder="Cerca piatto...">
+            </div>
+            <div class="menu-list" id="menu-list">
+                <!-- Popolato via JS -->
+            </div>
+            <div id="dish-modal" class="modal hidden">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <img id="modal-img" src="" alt="Foto piatto">
+                    <h3 id="modal-title"></h3>
+                    <p id="modal-desc"></p>
+                    <p id="modal-price"></p>
+                </div>
+            </div>
+        </section>
+        <section id="prenotazioni">
+            <h2>Prenota un tavolo</h2>
+            <form id="booking-form">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="persone">Numero di persone:</label>
+                <input type="number" id="persone" name="persone" min="1" max="20" required>
+                <label for="data">Data:</label>
+                <input type="date" id="data" name="data" required>
+                <label for="ora">Ora:</label>
+                <input type="time" id="ora" name="ora" required>
+                <label for="note">Note aggiuntive:</label>
+                <textarea id="note" name="note" rows="2"></textarea>
+                <button type="submit">Prenota</button>
+            </form>
+            <div id="booking-result"></div>
+            <div class="prenotazioni-list-section">
+                <h3>Le tue prenotazioni</h3>
+                <ul id="prenotazioni-list"></ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-info">
+            <span>&copy; 2025 Ristorante La Buona Forchetta</span>
+            <span>Via Roma 20, Roma | Tel: 0123 456789 | <a href="mailto:info@buonaforchetta.it">info@buonaforchetta.it</a></span>
+        </div>
+    </footer>
+    <script src="scriptconCopilot_2.js"></script>
+</body>
+</html>
