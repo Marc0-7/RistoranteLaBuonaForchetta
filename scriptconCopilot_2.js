@@ -5,56 +5,56 @@ const menuData = [
         descrizione: "Pane tostato con pomodorini, olive, patè e salumi.",
         prezzo: 5,
         categoria: "antipasti",
-        img: "immagini_HTMLconCopilot/bruschette.jpg"
+        img: "./bruschette.jpg"
     },
     {
         nome: "Tagliere salumi e formaggi",
         descrizione: "Selezione di salumi e formaggi regionali.",
         prezzo: 9,
         categoria: "antipasti",
-        img: "immagini_HTMLconCopilot/tagliere.jpg"
+        img: "./tagliere.jpg"
     },
     {
         nome: "Lasagne alla bolognese",
         descrizione: "Pasta fresca, ragù di manzo, besciamella e parmigiano.",
         prezzo: 10,
         categoria: "primi",
-        img: "immagini_HTMLconCopilot/lasagne.jpg"
+        img: "./lasagne.jpg"
     },
     {
         nome: "Risotto ai funghi porcini",
         descrizione: "Riso carnaroli con porcini freschi e prezzemolo.",
         prezzo: 12,
         categoria: "primi",
-        img: "immagini_HTMLconCopilot/risotto.jpg"
+        img: "./risotto.jpg"
     },
     {
         nome: "Tagliata di manzo con rucola",
         descrizione: "Controfiletto scottato, servito con rucola e grana.",
         prezzo: 16,
         categoria: "secondi",
-        img: "immagini_HTMLconCopilot/tagliata.jpg"
+        img: "./tagliata.jpg"
     },
     {
         nome: "Filetto di orata al forno",
         descrizione: "Orata fresca al forno con erbe aromatiche.",
         prezzo: 15,
         categoria: "secondi",
-        img: "immagini_HTMLconCopilot/orata.jpg"
+        img: "./orata.jpg"
     },
     {
         nome: "Tiramisù della casa",
         descrizione: "Classico dolce al cucchiaio con caffè, mascarpone e cacao.",
         prezzo: 5,
         categoria: "dolci",
-        img: "immagini_HTMLconCopilot/tiramisu.jpg"
+        img: "./tiramisu.jpg"
     },
     {
         nome: "Panna cotta ai frutti di bosco",
         descrizione: "Dolce delicato con salsa ai frutti di bosco freschi.",
         prezzo: 5,
         categoria: "dolci",
-        img: "immagini_HTMLconCopilot/pannacotta.jpg"
+        img: "./pannacotta.jpg"
     }
 ];
 
